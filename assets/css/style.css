@@ -128,6 +128,19 @@ body {
     cursor:pointer;
     trainsition:background-position .3s;
 }
+/***********************/
+#bienvenida{
+	background: url(../img/fondo-bienvenida.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.logo{
+	text-align: left;
+	padding: 0 30px;
+
+}
 
 
 /***************************/
@@ -204,19 +217,6 @@ body {
     font-size:30px;
 }
 
-
-#bienvenida{
-	background: url(../img/fondo-bienvenida.jpg);
-	background-size: cover;
-	background-position: center;
-	padding: 50px 0;
-}
-
-.logo{
-	text-align: left;
-	padding: 0 30px;
-
-}
 .mensaje{
 	text-align:center;
 }
@@ -273,7 +273,7 @@ h5, h4, h2{
 	padding: 50px 0;
 }
 
-/****************about tea*********/
+/***********************/
 .contenido{
 	color: white;
 	width: 40%;
@@ -308,10 +308,6 @@ p{
 
 #question{
   margin-top: 20px;
-}
-
-.img_cuadrada3{
-	background-image: center;
 }
 
 /* FOOTER */
