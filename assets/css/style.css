@@ -1,0 +1,130 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-default{
+  background: transparent;
+  border: none;
+  background-color: transparent;
+ }
+
+.dropdown-menu{
+  background: #4B7BDA;
+}
+
+.dropdown-menu li a{
+ color: white;
+}
+
+#bienvenida{
+	background: url(../img/fondo-bienvenida.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.logo{
+	text-align: left;
+	padding: 0 30px;
+
+}
+.mensaje{
+	text-align:center;
+}
+
+h3{
+	color: pink;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+h5, h4, h2{
+	color: black;
+	text-align: center;
+}
+
+
+/* CARROUSEL */
+.container-fluid{
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.carousel-inner img{
+  width: 100%;
+  height: auto;
+}
+
+#about{
+	background: url(../img/fondo-about.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+#about_tea{
+	background: url(../img/disfruta.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+#campos{
+	background: url(../img/parallax.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.contenido{
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 100px 30px;
+
+}
+
+.contenido h1{
+	font-weight: bolder;
+	font-size:5rem;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
+
+
+
+#productos .img-responsive{
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.text{
+	text-align: center;
+}
+
+
+p{
+  font-weight: bold;
+}
+
+#menu {
+    margin: 15px;
+    height: 54px;
+    width: 25%;
+    margin-left: 1px;
+    background-color: rgba(255, 255, 69, 0.5);
+}
+
+#question{
+  margin-top: 20px;
+}
+
+/* FOOTER */
+footer{
+	background: url(../img/logo.png);
+	background-color: grey;
+	height: 54px;
+	text-align: center;
+}
+
