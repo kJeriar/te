@@ -18,42 +18,30 @@
     <title>te</title>
   </head>
   <body>
-    <section class="first-section">
-      <!-- Navbar -->
-      <div class="container">
-<nav class="navbar navbar-default">
-    <div class="navbar-header">
-    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#"></a>
-  </div>
-  
-  
-  <div class="collapse navbar-collapse js-navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li class="dropdown mega-dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
-        
-        <ul class="dropdown-menu mega-dropdown-menu row">
-          <li class="col-sm-6">
-            <ul>
-      
-               <li><a href="#">home</a></li>
-              <li><a href="#">nuestra pasion</a></li>
-              <li><a href="#">preguntas</a></li>
-              <li><a href="#">los campos</a></li>
-      </ul>
-          </li>       
-      </li>
 
-  </div>
-  <!-- /.nav-collapse -->
-</nav>
+      <!-- Navbar -->
+<section>
+<div id="topNav" class="navigation">
+  <span id="closebtn" onclick="navToggle()">
+      <span class="line1"></span>
+      <span class="line2"></span>
+      <span class="line3"></span>
+
+  </span>
+
+
+<ul class="menulist">
+  <li><a class="menuitems" href="#">HOME</a></li>		
+  <li><a class="menuitems" href="#">NUESTRA PASION</a></li>				
+  <li><a class="menuitems" href="#">PREGUNTAS</a></li>
+  <li><a class="menuitems" href="#">LOS CAMPOS</a></li>
+</ul>			
 </div>
+
+<div id="main">
+</div>
+</section>
+     
 <!--comienzo-->
 <!-- seccion bienvenida -->
     <section id="bienvenida">
@@ -135,6 +123,18 @@
 
 <!--collage-->
 
+ <!--
+              <div class="div-img oculto">
+                  <img class="img" src="assets/img/min-video-5.jpg">
+                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                 <div class="container-img">
+              <div class="div-img oculto">
+                  <img class="img" src="assets/img/min-video-6.jpg">
+              </div>
+              </div>
+              </div>
+              -->
+
 <!--preguntas sobre el te-->
 
 <section id="about_tea">
@@ -151,25 +151,29 @@
                   <h4>Lo ideal son 3gr. por taza.Para calcular cuanto son tres gramos nosotros utilizamos y vendemos una cuchara medidora, no obstante, si no tienes basta con utilizar una cuchara de postre. Es importante saber que la cantidad de hebras que echemos solo va a influir en la intensidad del sabor del te y teniendo en cuenta que hay personas que les gusta el te mas intenso que a otrs, se puede modificar la cantidad que se echa sin problemas. Tambien debemos tener en cuenta que el Te Blanco tiene mucho mas volumen que el resto de tes y por tanto, necesitaremos mas cantidad para lograr los 3 gramos recomendados.</h4>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <img class="" src="assets/img/icon-1.png">
+                  <img class="img_cuadrada3" src="assets/img/icon-1.png">
               </div>
           </div>
           <div class="col-lg-12 col-md-12">
               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                   <img class="" src="assets/img/icon-2.png">
+                   <img class="img_cuadrada2" src="assets/img/icon-2.png">
               </div>
               <div id="cajitas" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <h2>¿Debo hervir el agua para hacer té?</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores alias quas modi voluptatibus, quam omnis nostrum vero non, illo est tenetur, temporibus provident reiciendis ab magnam possimus consequuntur! Iure, commodi.</p>
+                  <h2><strong>¿Debo hervir el agua para hacer té?</strong></h2>
+                  <h4>Nunca debemos echar agua hirviendo sobre las hebras del té. si tenemos agua hirviendo la podemos utilizar siempre y cuando la hagoams disminuir la temperatura, bien esperando o bien mezclandola con el agua fria. Hay un caso en el que es recomendable hervir el agua y es cuando queremos utilizar agua corriente y esta es dura.En este caso deberemos filtrarla, hervirla y dejarla reposar unos minutos para que los minerales precipiten y su temperatura disminuya.Hay unas reglas basicas de temperatura de agua que debemos cumplir si queremos obtener la mejor version de nuestro te:
+                  <li>Tes verdes 70°C</li>
+                  <li>Tes blancos y negros:80°C</li>
+                  <li>Tes azules(oolongs), Pu erh, rooibos y otras infusiones:95°°C</li>
+                    </h4>
               </div>
           </div>
           <div class="col-lg-12 col-md-12">
               <div id="cajitas" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <h2>¿Cuántos té e infusiones son recomendables al día?</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores alias quas modi voluptatibus, quam omnis nostrum vero non, illo est tenetur, temporibus provident reiciendis ab magnam possimus consequuntur! Iure, commodi.</p>
+                  <h2><strong>¿Cuántos té e infusiones son recomendables al día?</strong></h2>
+                  <h4>Cada persona tiene una tolerancia a la teina distinta de modo que tendra que ver cuantas tazas de te puede tomar al dia.no obstante podemos compaginar tomar te con tomar otras infusiones sin teina como el rooibos, las infusiones frutales, las especiadas, etc. Y de esta forma no nos tendremos que preocupar por si nos estimula demasiado.</h4>
               </div>
               <div id="cajitas" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <img class="" src="assets/img/icon-3.png">
+                  <img class="img_cuadrada1" src="assets/img/icon-3.png">
               </div>
           </div>
   </div>
@@ -178,6 +182,7 @@
 
 <section id="campos">    
   <div class="contenido">
+  <img class="logo" src="assets/img/logo.png" alt="logo">
   <h1>los campos</h1>
   </div>
   </section>
@@ -224,10 +229,15 @@
       </div>
     </section>
 <section>
+
+<section>
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+
+<div class="amamos_el_te">
 <div class="row">
           <div class="col-lg-12 col-md-12">
               <div id="" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <h2><strong>¿Cuánto te debo echar para<br> una taza?</strong></h2>
+                  <h2><strong>amamos el te</strong></h2>
                   <h4>Lo ideal son 3gr. por taza.Para calcular cuanto son tres gramos nosotros utilizamos y vendemos una cuchara medidora, no obstante, si no tienes basta con utilizar una cuchara de postre. Es importante saber que la cantidad de hebras que echemos solo va a influir en la intensidad del sabor del te y teniendo en cuenta que hay personas que les gusta el te mas intenso que a otrs, se puede modificar la cantidad que se echa sin problemas. Tambien debemos tener en cuenta que el Te Blanco tiene mucho mas volumen que el resto de tes y por tanto, necesitaremos mas cantidad para lograr los 3 gramos recomendados.</h4>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -236,9 +246,42 @@
           </div>
           </div>
           </section>
+<!--
 
+<section>
+<div class="row">
+ <div id=collage></div>
+          <div class="col-lg-12 col-md-12">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="container-img">
+              <div class="div-img oculto">
+                  <img class="img" src="assets/img/min-video-1-2.jpg">
+              </div>
+              </div>
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                   <div class="container-img">
+              <div class="div-img oculto">
+                  <img class="img" src="assets/img/min-video-3.jpg">
+              </div>
+              </div>
+              </div>            
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                 <div class="container-img">
+
+              </div>
+
+              </div>
+            </div>
+        </div>
+
+</section>
+
+-->
    
  <footer>
+ <div class="texto_footer">
  <br>
   <p>Te Encanto :  Av. Italia 1317 , Providencia.  </p>
   <br>
